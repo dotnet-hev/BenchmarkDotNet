@@ -184,6 +184,8 @@ namespace BenchmarkDotNet.Portability
                     return Platform.Arm;
                 case Architecture.Arm64:
                     return Platform.Arm64;
+                case Architecture.Mips64:
+                    return Platform.Mips64;
                 case Architecture.X64:
                     return Platform.X64;
                 case Architecture.X86:
